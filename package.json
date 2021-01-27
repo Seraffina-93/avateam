@@ -1,0 +1,25 @@
+{
+  "name": "avateam",
+  "version": "1.0.0",
+  "description": "api para manejar devs y proyectos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lulu",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "bcrypt": "^5.0.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.11",
+    "underscore": "^1.12.0",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.5"
+  }
+}
